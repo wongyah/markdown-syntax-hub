@@ -1,5 +1,6 @@
 ---
 title: 引用
+linkToNewLine: _markdown-tutorial/103-newline.md
 ---
 
 Markdown 可以创建多种形式的引用：
@@ -49,7 +50,7 @@ Markdown 可以创建多种形式的引用：
 
 如果段落内有[断行][newline]，每个断行都以大于号开头。
 
-[newline]: {% link 103-newline.md %}
+[newline]: {% link {{ page.linkToNewLine }} %}
 
 ## 示例
 
