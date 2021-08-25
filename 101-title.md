@@ -4,7 +4,9 @@ title: 标题
 
 在 Markdown 中，标题有两种写法：
 1. [井号法](#井号法)
-2. [下划线法](#下划线法)
+2. [一级标题](#一级标题)
+3. [下划线法](#下划线法)
+4. [一级标题](#一级标题-1)
 
 井号法支持六级标题，而下划线法只支持两级标题。井号法比下划线法更为常用。
 
@@ -20,13 +22,13 @@ title: 标题
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 # 一级标题
 
 ### 三级标题
 
 ###### 六级标题
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -36,11 +38,11 @@ title: 标题
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <h1>一级标题</h1>
 <h3>三级标题</h3>
 <h6>六级标题</h6>
-```
+{%- endhighlight -%}
 
 # 下划线法
 
@@ -54,13 +56,13 @@ title: 标题
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 一级标题
 =======
 
 二级标题
 -------
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -69,8 +71,8 @@ title: 标题
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <h1>一级标题</h1>
 <h2>二级标题</h2>
-```
+{%- endhighlight -%}
 

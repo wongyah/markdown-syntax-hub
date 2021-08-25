@@ -20,10 +20,10 @@ Markdown 可以创建多种形式的引用：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 > 岑夫子，丹丘生，将进酒，杯莫停，
 > 与君歌一曲，请君为我倾耳听！
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -34,11 +34,11 @@ Markdown 可以创建多种形式的引用：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <blockquote>
   <p>岑夫子，丹丘生，将进酒，杯莫停！<br>与君歌一曲，请君为我倾耳听！</p>
 </blockquote>
-```
+{%- endhighlight -%}
 
 # 多段引用和引用内断行
 
@@ -54,13 +54,13 @@ Markdown 可以创建多种形式的引用：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 > 君不见黄河之水天上来，奔流到海不复回！[空格][空格]
 > 君不见高堂明镜悲白发，朝如青丝暮成雪。
 >
 > 人生得意须尽欢，莫使金樽空对月。[空格][空格]
 > 天生我才必有用，千金散尽还复来。
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -73,14 +73,14 @@ Markdown 可以创建多种形式的引用：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <blockquote>
   <p>君不见黄河之水天上来，奔流到海不复回！<br>
     君不见高堂明镜悲白发，朝如青丝暮成雪。</p>
   <p>人生得意须尽欢，莫使金樽空对月。<br>
     天生我才必有用，千金散尽还复来。</p>
 </blockquote>
-```
+{%- endhighlight -%}
 
 # 引用自嵌套
 
@@ -90,12 +90,12 @@ Markdown 可以创建多种形式的引用：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 > 宝玉一面想，一面刹住脚步，听她哭道是：
 >
 >> 花谢花飞花满天，红消香断有谁怜?[空格][空格]
 >> 游丝软系飘春榭，落絮轻沾扑绣帘。
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -108,14 +108,14 @@ Markdown 可以创建多种形式的引用：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <blockquote>
   <p>宝玉一面想，一面刹住脚步，听她哭道是：</p>
   <blockquote>
     <p>花谢花飞花满天，红消香断有谁怜? <br> 游丝软系飘春榭，落絮轻沾扑绣帘。</p>
   </blockquote>
 </blockquote>
-```
+{%- endhighlight -%}
 
 # 在引用块内使用其他元素
 
@@ -129,7 +129,7 @@ Markdown 可以创建多种形式的引用：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 > # 李白的诗作
 >
 > 李白，字太白，号青莲居士，素有“诗仙”之称。
@@ -137,7 +137,7 @@ Markdown 可以创建多种形式的引用：
 > - 静夜思
 > - 将进酒
 > - 蜀道难
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -153,7 +153,7 @@ Markdown 可以创建多种形式的引用：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <blockquote>
   <h1>李白的诗作</h1>
   <p>李白，字太白，号青莲居士，素有“诗仙”之称。</p>
@@ -163,5 +163,5 @@ Markdown 可以创建多种形式的引用：
     <li>蜀道难</li>
   </ul>
 </blockquote>
-```
+{%- endhighlight -%}
 

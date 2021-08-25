@@ -28,9 +28,9 @@ title: 强调文本
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 *春江*潮水连海平，海上**明月**共潮生。滟滟随波千万里，何处春江无***月明***。
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -38,11 +38,11 @@ title: 强调文本
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>
   <em>春江</em>潮水连海平，海上<strong>明月</strong>共潮生。滟滟随波千万里，何处春江无<em><strong>月明</strong></em>。
 </p>
-```
+{%- endhighlight -%}
 
 > 1. Markdown 中还可以使用星号强调英文单词中的单个或多个字母。但部分编辑器不支持在这种场景中使用下划线。
 > 2. 如果星号（或下划线）的两端分别存在一个或多个空格，星号（或下划线）将被视为普通字符。**位于段首和句首的星号（或下划线）除外**。

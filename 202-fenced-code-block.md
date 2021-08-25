@@ -20,11 +20,11 @@ Markdown 基本语法使用缩进来表示代码块，这种方法有时会让�
 
 ## 示例
 
-````markdown
+{%- highlight markdown -%}
 ```
 let myVariable = 123;
 ```
-````
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -32,10 +32,10 @@ let myVariable = 123;
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <pre><code><div>let myVariable = 123;
 </div></code></pre>
-```
+{%- endhighlight -%}
 
 # 语法高亮
 
@@ -45,11 +45,11 @@ let myVariable = 123;
 
 ## 示例
 
-~~~markdown
+{%- highlight markdown -%}
 ```js
 let myVariable = 123;
 ```
-~~~
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -58,9 +58,9 @@ let myVariable = 123;
 </div>
 
 
-```html
+{%- highlight html -%}
 <pre><code class="language-js"><div><span class="hljs-keyword">let</span> myVariable = <span class="hljs-number">123</span>;</div></code></pre>
-```
+{%- endhighlight -%}
 
 # 含有反引号或波浪号的代码
 
@@ -76,21 +76,21 @@ let myVariable = 123;
 
 ## 示例
 
-~~~markdown
+{%- highlight markdown -%}
 ````markdown
 ```
 let myVariable = 123;
 ```
 ````
-~~~
+{%- endhighlight -%}
 
-````markdown
+{%- highlight markdown -%}
 ~~~markdown
 ```
 let myVariable = 123;
 ```
 ~~~
-````
+{%- endhighlight -%}
 
 <div class='exmp'>
 <div class='exmp-container'>
@@ -101,9 +101,8 @@ let myVariable = 123;
 </div>
 
 
-```html
+{%- highlight html -%}
 <pre><code class="language-markdown">```
 let myVariable = 123;
 ```</code></pre>
-```
-
+{%- endhighlight -%}

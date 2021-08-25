@@ -8,9 +8,9 @@ title: 删除线
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 《绝句》的作者是~~孟浩然~~杜甫。
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -18,6 +18,6 @@ title: 删除线
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>《绝句》的作者是<s>孟浩然</s>杜甫。</p>
-```
+{%- endhighlight -%}

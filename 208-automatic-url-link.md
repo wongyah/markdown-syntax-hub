@@ -6,9 +6,9 @@ title: URL 自动生成链接
 
 很多 Markdown 编辑器都会将网址（URL）自动转换为链接。像这样：
 
-```markdown
+{%- highlight markdown -%}
 www.baidu.com
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -17,9 +17,9 @@ www.baidu.com
 </div>
 
 
-```html
+{%- highlight html -%}
 <p><a href="http://www.baidu.com">www.baidu.com</a></p>
-```
+{%- endhighlight -%}
 
 # 禁用自动生成链接
 

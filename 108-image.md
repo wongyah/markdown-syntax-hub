@@ -13,9 +13,9 @@ title: 图片
 
 插入图片的方法如下：
 
-```markdown
+{%- highlight markdown -%}
 ![替换文本](图片的网址或路径 "图片标题")
-```
+{%- endhighlight -%}
 
 其中，
 
@@ -25,9 +25,9 @@ title: 图片
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 ![印度尼西亚萨母巴岛上的红树林](https://img.peapix.com/f0b899e247da4e6da5a7ac7938f3dc05_480.jpg "漂亮的红树林")
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -37,11 +37,11 @@ title: 图片
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>
   <img src="https://img.peapix.com/f0b899e247da4e6da5a7ac7938f3dc05_480.jpg" alt="印度尼西亚萨母巴岛上的红树林" title="漂亮的红树林">
 </p>
-```
+{%- endhighlight -%}
 
 # 脚注式
 
@@ -51,10 +51,10 @@ title: 图片
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 ![印度尼西亚萨母巴岛上的红树林][红树林]
 
 [红树林]: https://img.peapix.com/f0b899e247da4e6da5a7ac7938f3dc05_480.jpg "漂亮的红树林"
-```
+{%- endhighlight -%}
 
 编译后的 HTML 以及输出效果，与上面的图片完全相同。

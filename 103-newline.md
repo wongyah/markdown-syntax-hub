@@ -10,10 +10,10 @@ title: 断行
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 落霞与孤鹜齐飞，[空格][空格]
 秋水共长天一色。
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -21,7 +21,7 @@ title: 断行
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>落霞与孤鹜齐飞，<br> 秋水共长天一色。</p>
-```
+{%- endhighlight -%}
 

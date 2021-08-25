@@ -15,11 +15,11 @@ title: 代码块
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 这是一段 JavaScript 代码：
 
     let myVariable = 123;
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -28,11 +28,11 @@ title: 代码块
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>这是一段 JavaScript 代码：</p>
 <pre><code>let myVariable = 123;
 </code></pre>
-```
+{%- endhighlight -%}
 
 # 含有与字符和尖括号的代码
 
@@ -42,14 +42,14 @@ title: 代码块
 
 像这样：
 
-```markdown
+{%- highlight markdown -%}
 这是一段 HTML 代码：
 
     <h1>我是标题</h1>
-```
+{%- endhighlight -%}
 
-```html
+{%- highlight html -%}
 <p>这是一段 HTML 代码：</p>
 <pre><code>&lt;h1&gt;我是标题&lt;/h1&gt;</code></pre>
-```
+{%- endhighlight -%}
 

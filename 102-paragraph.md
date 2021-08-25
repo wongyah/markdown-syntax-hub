@@ -10,11 +10,11 @@ title: 段落
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 使用 Markdown 写文档非常方便。
 
 公众号文章、学习笔记、网站教程，都可以用它写。我现在几乎已经离不开它了。
-```
+{%- endhighlight -%}
 
 <div class="exmp">
   <div class="exmp-container">
@@ -23,8 +23,8 @@ title: 段落
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>使用 Markdown 写文档非常方便。</p>
 <p>公众号文章、学习笔记、网站教程，都可以用它写。我现在几乎已经离不开它了。</p>
-```
+{%- endhighlight -%}
 

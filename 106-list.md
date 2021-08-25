@@ -23,7 +23,7 @@ Markdown 可以创建多种形式的列表：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 四大名著：
 
 - 红楼梦
@@ -44,7 +44,7 @@ Markdown 可以创建多种形式的列表：
 * 言菊朋
 * 高庆奎
 * 马连良
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -72,7 +72,7 @@ Markdown 可以创建多种形式的列表：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>四大名著：</p>
 <ul>
   <li>红楼梦</li>
@@ -96,7 +96,7 @@ Markdown 可以创建多种形式的列表：
   <li>高庆奎</li>
   <li>马连良</li>
 </ul>
-```
+{%- endhighlight -%}
 
 # 数字编号列表
 
@@ -112,7 +112,7 @@ Markdown 可以创建多种形式的列表：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 后四大须生：
 
 1. 马连良
@@ -133,7 +133,7 @@ Markdown 可以创建多种形式的列表：
 1. 程派
 1. 荀派
 1. 尚派
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -161,7 +161,7 @@ Markdown 可以创建多种形式的列表：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>后四大须生：</p>
 <ol>
   <li>马连良</li>
@@ -185,7 +185,7 @@ Markdown 可以创建多种形式的列表：
   <li>荀派</li>
   <li>尚派</li>
 </ol>
-```
+{%- endhighlight -%}
 
 # 列表项目内嵌套段落元素
 
@@ -202,7 +202,7 @@ Markdown 可以创建多种形式的列表：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 中国古代四大发明：
 
 - 造纸术
@@ -230,7 +230,7 @@ Markdown 可以创建多种形式的列表：
 4. 共享单车
 
     共享单车最早出现在1965年的荷兰。2014年开始，共享单车开始在中国风靡。
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -259,7 +259,7 @@ Markdown 可以创建多种形式的列表：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <p>中国古代四大发明：</p>
 <ul>
   <li><p>造纸术</p></li>
@@ -283,7 +283,7 @@ Markdown 可以创建多种形式的列表：
     <p>共享单车最早出现在1965年的荷兰。2014年开始，共享单车开始在中国风靡。</p>
   </li>
 </ol>
-```
+{%- endhighlight -%}
 
 # 列表自嵌套
 
@@ -295,7 +295,7 @@ Markdown 可以创建多种形式的列表：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 1. 老三鼎甲
     - 程长庚
     - 余三胜
@@ -304,7 +304,7 @@ Markdown 可以创建多种形式的列表：
     - 谭鑫培
     - 汪桂芬
     - 孙菊仙
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -327,7 +327,7 @@ Markdown 可以创建多种形式的列表：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <ol>
   <li>老三鼎甲
     <ul>
@@ -345,7 +345,7 @@ Markdown 可以创建多种形式的列表：
     </ul>
   </li>
 </ol>
-```
+{%- endhighlight -%}
 
 # 列表项目内嵌套代码块
 
@@ -358,7 +358,7 @@ Markdown 可以创建多种形式的列表：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 1. HTML
         
         <html>
@@ -369,7 +369,7 @@ Markdown 可以创建多种形式的列表：
         
 2. CSS
 3. JavaScript
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -387,7 +387,7 @@ Markdown 可以创建多种形式的列表：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <ol>
   <li><p>HTML</p>
     <pre><code>&lt;html&gt;
@@ -399,7 +399,7 @@ Markdown 可以创建多种形式的列表：
   <li><p>CSS</p></li>
   <li><p>JavaScript</p></li>
 </ol>
-```
+{%- endhighlight -%}
 
 # 列表项目内嵌套其他元素
 
@@ -414,14 +414,14 @@ Markdown 可以创建多种形式的列表：
 
 ## 示例
 
-```markdown
+{%- highlight markdown -%}
 - 包龙图打坐在开封府
 
     > 京剧十大名段之一，取自《铡美案》。
 
 - 我正在城楼观山景
 - 昔日有个三大贤
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -437,7 +437,7 @@ Markdown 可以创建多种形式的列表：
   </div>
 </div>
 
-```html
+{%- highlight html -%}
 <ul>
   <li><p>包龙图打坐在开封府</p>
     <blockquote>
@@ -447,4 +447,4 @@ Markdown 可以创建多种形式的列表：
   <li><p>我正在城楼观山景</p></li>
   <li><p>昔日有个三大贤</p></li>
 </ul>
-```
+{%- endhighlight -%}

@@ -27,9 +27,9 @@ title: 表情
 
 并不是每个平台都支持表情简码，而且每个平台使用的表情简码不太相同。使用前，勿必先测试一下。
 
-```markdown
+{%- highlight markdown -%}
 公交车:bus:四大奇观：装得多，开得慢，挤得哭，离校门远。:joy:
-```
+{%- endhighlight -%}
 
 <div class='exmp'>
   <div class='exmp-container'>
