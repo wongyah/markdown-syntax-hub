@@ -8,5 +8,11 @@ Markdown 原本是 [John Gruber][markdownCreator] 在 2004 年发布的一款格
 
 本教程不仅包括 Markdown 基础语法和扩展语法，还将详细介绍功能更加强大的 kramdown 语法，一些非常实用的小贴士，以及各种各样的 Markdown 转换器。
 
+本教程的参考资料如下：
+
+1. [DARING FIREBALL][markdownCreator]（John Gruber 创建的网站）
+2. [Markdown Guide][]
+
 
 [markdownCreator]: "https://daringfireball.net/projects/markdown/"
+[Markdown Guide]: "https://www.markdownguide.org/"
