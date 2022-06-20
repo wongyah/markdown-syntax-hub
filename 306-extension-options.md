@@ -18,7 +18,7 @@ kramdown 不只是一种 Markdown 语法，更是一个功能强大的 **Markdow
 {%- endhighlight -%}
 
 > 1. 在参数名称中，使用下划线（`_`）作为单词之间的连接符。如，`auto_ids`。
-> 2. kramdown 提供的编译参数，详见 {% link {{ page.linkToOptionList }} %}
+> 2. kramdown 提供的编译参数，请参见 [编译参数]({% link {{ page.linkToOptionList }} %})。
 
 ## 示例
 
