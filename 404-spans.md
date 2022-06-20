@@ -17,7 +17,7 @@ title: 自定义行内文本
 ## 示例
 
 {%- highlight markdown -%}
-熊猫树上熊猫果！[网友：]{.role data-asker="me"}可以在我家里也种一棵吗?
+熊猫树上熊猫果！[网友]{.role data-asker="me"}：可以在我家里也种一棵吗?
 {%- endhighlight -%}
 
 {%- highlight javascript -%}
