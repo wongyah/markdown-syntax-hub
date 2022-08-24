@@ -14,5 +14,5 @@ Markdown 原本是 [John Gruber][markdownCreator] 在 2004 年发布的一款格
 2. [Markdown Guide][]
 
 
-[markdownCreator]: "https://daringfireball.net/projects/markdown/"
-[Markdown Guide]: "https://www.markdownguide.org/"
+[markdownCreator]: https://daringfireball.net/projects/markdown/ "Markdown 创始人"
+[Markdown Guide]: https://www.markdownguide.org/
