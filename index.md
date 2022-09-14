@@ -1,5 +1,5 @@
 ---
-title: Markdown
+title: Markdown 完全教程
 ---
 
 Markdown 原本是 [John Gruber][markdownCreator] 在 2004 年发布的一款格式转换工具。这款工具可以将文本文件转换成 HTML 文件，但文本文件必须使用一种专门的语法来撰写。
