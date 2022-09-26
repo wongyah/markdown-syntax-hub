@@ -2,9 +2,15 @@
 title: URL 自动生成链接
 ---
 
+你可以使用网址（URL）自动生成链接，也可以禁用该功能从而以文本方式显示网址。
+
+1. toc
+{: toc }
+{::options toc_levels="1" /}
+
 # 自动生成链接
 
-很多 Markdown 编辑器都会将网址（URL）自动转换为链接。像这样：
+很多 Markdown 编辑器都会将网址自动转换为链接。像这样：
 
 {%- highlight markdown -%}
 www.baidu.com

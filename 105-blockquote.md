@@ -5,10 +5,9 @@ linkToNewLine: _markdown-tutorial/103-newline.md
 
 Markdown 可以创建多种形式的引用：
 
-1. [单段引用](#单段引用)
-2. [多段引用和引用内断行](#多段引用和引用内断行)
-3. [引用自嵌套](#引用自嵌套)
-4. [在引用块内使用其他元素](#在引用块内使用其他元素)
+1. toc
+{: toc }
+{::options toc_levels="1" /}
 
 # 单段引用
 

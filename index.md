@@ -12,7 +12,11 @@ Markdown 原本是 [John Gruber][markdownCreator] 在 2004 年发布的一款格
 
 1. [DARING FIREBALL][markdownCreator]（John Gruber 创建的网站）
 2. [Markdown Guide][]
+3. [kramdown Syntax][]
+4. [Pandoc User's Guide][]
 
 
 [markdownCreator]: https://daringfireball.net/projects/markdown/ "Markdown 创始人"
 [Markdown Guide]: https://www.markdownguide.org/
+[kramdown Syntax]: https://kramdown.gettalong.org/index.html
+[Pandoc User's Guide]: https://pandoc.org/MANUAL.html
