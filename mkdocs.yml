@@ -1,0 +1,64 @@
+site_name: Markdown Syntax Hub
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+
+nav:
+  - 基本语法:
+    - basic/index.md
+    - basic/title.md
+    - basic/paragraph.md
+    - basic/newline.md
+    - basic/emphasis.md
+    - basic/blockquote.md
+    - basic/list.md
+    - basic/link.md
+    - basic/image.md
+    - basic/code.md
+    - basic/code-block.md
+    - basic/horizontal-rules.md
+    - basic/backslash-escapes.md
+    - basic/html.md
+  - 扩展语法:
+    - extended/index.md
+    - extended/table.md
+    - extended/fenced-code-block.md
+    - extended/footnote.md
+    - extended/definition-list.md
+    - extended/task-list..md
+    - extended/heading-id.md
+    - extended/strikethrough.md
+    - extended/automatic-url-link.md
+    - extended/Emoji.md
+  - kramdown 语法:
+    - kramdown/index.md
+    - kramdown/abbreviation.md
+    - kramdown/block-attribute.md
+    - kramdown/inline-attribute.md
+    - kramdown/built-in-attributes.md
+    - kramdown/extension-comment.md
+    - kramdown/extension-nomarkdown.md
+    - kramdown/extension-options.md
+    - kramdown/option-list.md
+  - pandoc 语法:
+    - pandoc/index.md
+    - pandoc/line-block.md
+    - pandoc/sup-and-sub.md
+    - pandoc/divs.md
+    - pandoc/spans.md
+    - pandoc/metadata-block.md
+    - pandoc/newline.md
+    - pandoc/citation.md
+
+
+markdown_extensions:
+  - footnotes
+  - nl2br
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      auto_title: true
