@@ -1,6 +1,4 @@
----
-title: URL 自动生成链接
----
+# URL 自动生成链接
 
 你可以使用网址（URL）自动生成链接，也可以禁用该功能从而以文本方式显示网址。
 
@@ -16,11 +14,10 @@ title: URL 自动生成链接
 www.baidu.com
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p><a href="http://www.baidu.com">www.baidu.com</a></p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 
 ```html

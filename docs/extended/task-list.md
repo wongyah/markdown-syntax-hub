@@ -1,6 +1,4 @@
----
-title: 任务列表
----
+# 任务列表
 
 ## 语法描述
 
@@ -25,16 +23,15 @@ title: 任务列表
 - [ ] 睡觉
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <ul class="contains-task-list">
       <li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 赖床</li>
       <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 起床</li>
       <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 吃饭</li>
       <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 睡觉</li>
     </ul>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <ul class="contains-task-list">

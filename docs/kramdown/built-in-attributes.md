@@ -1,6 +1,4 @@
----
-title: 预定义的属性列表
----
+# 预定义的属性列表
 
 kramdown 预定义了一些属性列表。这些预定义的属性列表只能用于特定的元素，以实现特定的功能。
 
@@ -158,8 +156,8 @@ Data visualization
 接天莲叶无穷碧，映日荷花别样红。
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p>小荷才露尖尖角<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，早有蜻蜓立上头<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。</p>
     <div class="footnotes" role="doc-endnotes">
       <ol>
@@ -170,9 +168,7 @@ Data visualization
           <p>上头：上面，顶上。为了押韵，“头”不读轻声。 <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
         </li>
       </ol>
-    </div>
-    <p>接天莲叶无穷碧，映日荷花别样红。</p>
-  </div>
+    --8<-- "output.md:end"
 </div>
 
 ```html

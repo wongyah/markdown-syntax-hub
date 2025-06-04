@@ -59,6 +59,8 @@ markdown_extensions:
   - footnotes
   - nl2br
   - attr_list
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       linenums: true

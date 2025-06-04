@@ -1,6 +1,4 @@
----
-title: 独立代码块
----
+# 独立代码块
 
 Markdown 基本语法使用缩进来表示代码块，这种方法有时会让人觉得不太方便。所以后来又出现了更便捷的语法：独立代码块。
 
@@ -14,7 +12,7 @@ Markdown 基本语法使用缩进来表示代码块，这种方法有时会让�
 
 ## 语法描述
 
-在代码块的上一行和下一行分别输入 3 个连续的反引号（```` ``` ````）或波浪号（`~~~`）。
+在代码块的上一行和下一行分别输入 3 个连续的反引号（`` ` ````）或波浪号（`~~~`）。
 
 > 有些编辑器只支持反引号，有些只支持波浪号。使用前勿必亲手测试一下。
 
@@ -26,10 +24,9 @@ let myVariable = 123;
 ```
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
-    <pre><code><div>let myVariable = 123;</div></code></pre>
-  </div>
+--8<-- "output.md:start"
+    markdown: html
+    <pre><code><div>let myVariable = 123;--8<-- "output.md:end"
 </div>
 
 ```html
@@ -51,10 +48,9 @@ let myVariable = 123;
 ```
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
-    <pre><code class="language-js"><div><span class="hljs-keyword">let</span> myVariable = <span class="hljs-number">123</span>;</div></code></pre>
-  </div>
+--8<-- "output.md:start"
+    markdown: html
+    <pre><code class="language-js"><div><span class="hljs-keyword">let</span> myVariable = <span class="hljs-number">123</span>;--8<-- "output.md:end"
 </div>
 
 
@@ -92,13 +88,12 @@ let myVariable = 123;
 ~~~
 ```
 
-<div class='exmp'>
-<div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
 <pre><code class="language-markdown">```
 let myVariable = 123;
 ```</code></pre>
-</div>
-</div>
+--8<-- "output.md:end"
 
 
 ```html

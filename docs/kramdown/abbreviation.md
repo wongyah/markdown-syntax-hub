@@ -1,6 +1,4 @@
----
-title: 缩写
----
+# 缩写
 
 ## 语法描述
 
@@ -20,11 +18,10 @@ title: 缩写
 *[YYDS]: 永远滴神
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p>哇，这就是我的 <abbr title="永远滴神">YYDS</abbr>!</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p>哇，这就是我的 <abbr title="永远滴神">YYDS</abbr>!</p>

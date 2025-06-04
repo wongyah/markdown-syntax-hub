@@ -1,6 +1,4 @@
----
-title: 表情
----
+# 表情
 
 表情可以让文字变得更加生动、鲜活。所以，Markdown 里怎么能少了表情呢?
 
@@ -32,9 +30,8 @@ title: 表情
 公交车:bus:四大奇观：装得多，开得慢，挤得哭，离校门远。:joy:
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p>🚌公交车四大奇观：装得多、开得慢、挤得哭、离校门远。😂</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 

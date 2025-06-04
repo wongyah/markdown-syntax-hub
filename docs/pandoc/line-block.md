@@ -1,6 +1,4 @@
----
-title: 预格式文本
----
+# 预格式文本
 
 当输入某个地点的地址、唐诗宋词等内容时，文本中的空格和软回车经常需要在编译之后仍然保持原样。这时，你可以使用预格式文本。
 
@@ -25,16 +23,15 @@ title: 预格式文本
 |         就勇敢地吐露真诚
 ```
 
-<div class="exmp">
-  <div class="exmp-container">
+--8<-- "output.md:start"
+    markdown: html
   <div class="line-block">我不去想是否能够成功<br />
     既然选择了远方<br />    
         便只顾风雨兼程<br />
 <br />
 我不去想能否赢得爱情<br />
     既然钟情于玫瑰<br />
-        就勇敢地吐露真诚</div>
-  </div>
+        就勇敢地吐露真诚--8<-- "output.md:end"
 </div>
 
 ```html

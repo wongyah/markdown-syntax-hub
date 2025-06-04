@@ -1,6 +1,4 @@
----
-title: HTML
----
+# HTML
 
 Markdown 中可以直接使用 HTML。
 
@@ -18,11 +16,9 @@ HTML 元素中，不能使用 Markdown 语法。
 <abbr title="British Broadcasting Corporation">BBC</abbr> 总部位于伦敦。
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
-    <p><abbr title="British Broadcasting Corporation">BBC</abbr> 总部位于伦敦。</p>
-  </div>
-</div>
+--8<-- "output.md:start"
+<abbr title="British Broadcasting Corporation">BBC</abbr> 总部位于伦敦。
+--8<-- "output.md:end"
 
 ```html
 <p><abbr title="British Broadcasting Corporation">BBC</abbr> 总部位于伦敦。</p>

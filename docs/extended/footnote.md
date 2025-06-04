@@ -1,6 +1,4 @@
----
-title: 脚注
----
+# 脚注
 
 脚注可以用来添加注释和参考资料。
 
@@ -33,8 +31,8 @@ Markdown 中生成的脚注和我们通常看到的脚注没什么不同。正�
 [^wang]: 望：只。
 ```
 
-<div class='exmp'>
-    <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
         <p>人生代代无穷已<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，江月年年望相似<sup id="fnref:wang" role="doc-noteref"><a href="#fn:wang" class="footnote" rel="footnote">2</a></sup>。</p>
         <div class="footnotes" role="doc-endnotes">
         <ol>
@@ -45,8 +43,7 @@ Markdown 中生成的脚注和我们通常看到的脚注没什么不同。正�
             <p>望：只。 <a href="#fnref:wang" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
             </li>
         </ol>
-        </div>
-    </div>
+        --8<-- "output.md:end"
 </div>
 
 ```html

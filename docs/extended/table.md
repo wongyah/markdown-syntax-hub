@@ -1,6 +1,4 @@
----
-title: 表格
----
+# 表格
 
 Markdown 中的表格不仅可以设置文本对齐方式，还可以在单元格中使用 Markdown 中的其他元素为文本添加格式。
 
@@ -35,8 +33,8 @@ Markdown 中的表格不仅可以设置文本对齐方式，还可以在单元�
 | 特长     |   腿   | 绘画书法之类 |
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <table>
       <thead>
         <tr>
@@ -68,8 +66,7 @@ Markdown 中的表格不仅可以设置文本对齐方式，还可以在单元�
         </tr>
       </tbody>
     </table>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <table>

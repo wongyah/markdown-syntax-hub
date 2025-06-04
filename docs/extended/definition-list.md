@@ -1,6 +1,4 @@
----
-title: 术语表
----
+# 术语表
 
 术语表是包含术语及其定义的列表。
 
@@ -25,8 +23,8 @@ title: 术语表
 : 指恋爱的对方，即男朋友或女朋友。
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <dl>
       <dt>背书</dt>
       <dd>指在票据背面或者贴单上记载有关事项并签章的票据行为。</dd>
@@ -34,8 +32,7 @@ title: 术语表
       <dd>指一块能存储数据并具有某种类型的内存空间。</dd>
       <dd>指恋爱的对方，即男朋友或女朋友。</dd>
     </dl>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <dl>

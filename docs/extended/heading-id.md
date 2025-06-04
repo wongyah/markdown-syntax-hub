@@ -1,6 +1,4 @@
----
-title: 带 ID 的标题
----
+# 带 ID 的标题
 
 有些 Markdown 编辑器会为每个标题自动生成一个 ID，甚至还可以自定义 ID。有了 ID，就可以添加指向特定标题的链接，还可以使用 CSS 为为某个标题单独设置样式。
 
@@ -56,11 +54,10 @@ title: 带 ID 的标题
 [添加指向标题的链接](#添加指向标题的链接)
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p><a href="#%E6%B7%BB%E5%8A%A0%E6%8C%87%E5%90%91%E6%A0%87%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5">添加指向标题的链接</a></p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p><a href="#%E6%B7%BB%E5%8A%A0%E6%8C%87%E5%90%91%E6%A0%87%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5">添加指向标题的链接</a></p>

@@ -1,6 +1,4 @@
----
-title: 水平分割线
----
+# 水平分割线
 
 ## 语法描述
 
@@ -17,13 +15,12 @@ title: 水平分割线
 _ _ _
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
-    <hr><br>
-    <hr><br>
-    <hr>
-  </div>
-</div>
+--8<-- "output.md:start"
+---
+
+*****
+_ _ _
+--8<-- "output.md:end"
 
 ```html
 <hr>

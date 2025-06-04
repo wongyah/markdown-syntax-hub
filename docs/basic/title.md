@@ -24,17 +24,13 @@
 ###### 六级标题
 ```
 
-/// html | div.highlight
-/// html | span.filename
-输出格式
-///
-/// html | div.output
+
+--8<-- "output.md:start"
     markdown: html
 <h1>一级标题</h1>
 <h3>三级标题</h3>
 <h6>六级标题</h6>
-///
-///
+--8<-- "output.md:end"
 
 
 ```html
@@ -63,18 +59,13 @@
 -------
 ```
 
-/// html | div.highlight
-/// html | span.filename
-输出格式
-///
-/// html | div.output
+--8<-- "output.md:start"
 一级标题
 =======
 
 二级标题
 -------
-///
-///
+--8<-- "output.md:end"
 
 ```html
 <h1>一级标题</h1>

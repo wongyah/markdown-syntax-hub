@@ -1,6 +1,4 @@
----
-title: 注释
----
+# 注释
 
 ## 语法描述
 
@@ -35,12 +33,11 @@ title: 注释
 先天下之忧而忧，后天下之乐而乐！
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <!-- 岳阳楼记中的名句 -->
     <p>先天下之忧而忧，后天下之乐而乐！</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <!-- 岳阳楼记中的名句 -->

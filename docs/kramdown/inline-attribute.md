@@ -1,6 +1,4 @@
----
-title: 为行内元素添加属性
----
+# 为行内元素添加属性
 
 ## 语法描述
 
@@ -16,11 +14,10 @@ title: 为行内元素添加属性
 一代人终将老去，**但**{: style="color: #bb0000;"}总有人正年轻。
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p>一代人终将老去，<strong style="color: #bb0000;">但</strong>总有人正年轻。</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p>一代人终将老去，<strong style="color: #bb0000;">但</strong>总有人正年轻。</p>
@@ -34,11 +31,10 @@ title: 为行内元素添加属性
 青出于**蓝**{: blue}而胜于**蓝**{: blue}。
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p>青出于<strong style="color: #0000ff;">蓝</strong>而胜于<strong style="color: #0000ff;">蓝</strong>。</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p>青出于<strong style="color: #0000ff;">蓝</strong>而胜于<strong style="color: #0000ff;">蓝</strong>。</p>

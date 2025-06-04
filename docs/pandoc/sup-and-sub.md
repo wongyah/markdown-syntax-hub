@@ -1,6 +1,4 @@
----
-title: 上标和下标
----
+# 上标和下标
 
 ## 语法描述
 
@@ -14,11 +12,10 @@ title: 上标和下标
 水分子（H~2~O）的直径是 4×10^-10 米。
 ```
 
-<div class="exmp">
-  <div class="exmp-container">
+--8<-- "output.md:start"
+    markdown: html
     <p>水分子（H<sub>2</sub>O）的直径是 4×10<sup>-10</sup> 米。</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p>水分子（H<sub>2</sub>O）的直径是 4×10<sup>-10</sup> 米。</p>

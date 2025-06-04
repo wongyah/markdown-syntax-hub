@@ -1,6 +1,4 @@
----
-title: 删除线
----
+# 删除线
 
 ## 语法描述
 
@@ -12,11 +10,10 @@ title: 删除线
 《绝句》的作者是~~孟浩然~~杜甫。
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p>《绝句》的作者是<s>孟浩然</s>杜甫。</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p>《绝句》的作者是<s>孟浩然</s>杜甫。</p>

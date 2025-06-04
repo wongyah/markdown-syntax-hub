@@ -1,6 +1,4 @@
----
-title: 断行
----
+# 断行
 
 ## 语法描述
 
@@ -15,11 +13,10 @@ title: 断行
 秋水共长天一色。
 ```
 
-<div class="exmp">
-  <div class="exmp-container">
+--8<-- "output.md:start"
+    markdown: html
     <p>落霞与孤鹜齐飞，<br> 秋水共长天一色。</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p>落霞与孤鹜齐飞，<br> 秋水共长天一色。</p>

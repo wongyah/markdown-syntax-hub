@@ -1,6 +1,4 @@
----
-title: 简介
----
+# 简介
 
 和 [kramdown] 一样，[Pandoc] 也是一款倍受追捧的 Markdown 编译器。
 

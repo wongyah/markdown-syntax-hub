@@ -1,6 +1,4 @@
----
-title: "Markdown 源文本"
----
+# "Markdown 源文本"
 
 Markdown 源文本是指那些虽然位于 Markdown 文件中，但在编译时不会被转换器处理，而是按照原样输出的文本。
 
@@ -32,11 +30,10 @@ Markdown 源文本可以作为行内元素使用，也可以作为块元素使�
 快来，{::nomarkdown}**划重点**{:/nomarkdown}了！
 ```
 
-<div class='exmp'>
-  <div class='exmp-container'>
+--8<-- "output.md:start"
+    markdown: html
     <p>快来，**划重点**了！</p>
-  </div>
-</div>
+  --8<-- "output.md:end"
 
 ```html
 <p>快来，**划重点**了！</p>

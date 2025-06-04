@@ -1,6 +1,4 @@
----
-title: 简介
----
+# 简介
 
 Markdown 基础语法是指 [John Gruber][markdownCreator] 在 2004 年发布的语法。
 
