@@ -14,7 +14,7 @@ title: 预格式文本
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 | 我不去想是否能够成功
 |     既然选择了远方
 |         便只顾风雨兼程
@@ -23,7 +23,7 @@ title: 预格式文本
   能否赢得爱情
 |     既然钟情于玫瑰
 |         就勇敢地吐露真诚
-{%- endhighlight -%}
+```
 
 <div class="exmp">
   <div class="exmp-container">
@@ -37,7 +37,7 @@ title: 预格式文本
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <div class="line-block">我不去想是否能够成功<br />
     既然选择了远方<br />    
         便只顾风雨兼程<br />
@@ -45,5 +45,5 @@ title: 预格式文本
 我不去想能否赢得爱情<br />
     既然钟情于玫瑰<br />
         就勇敢地吐露真诚</div>
-{%- endhighlight -%}
+```
 

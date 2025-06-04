@@ -27,24 +27,24 @@ kramdown 预定义了一些属性列表。这些预定义的属性列表只能�
 
 在图片的末尾引用属性列表 `standalone`。像这样：
 
-{%- highlight markdown -%}
+```markdown
 ![替换文本](图片的网址或路径 "图片标题"){:standalone}
-{%- endhighlight -%}
+```
 
 > 图片是行内元素，使用 为行内元素添加属性 中的语法。
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 ![安娜蜂鸟](https://cn.bing.com/th?id=OHR.AnnasHummingbird_EN-CN9850207192_1920x1080.jpg&w=720){:standalone}
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <figure>
   <img src="https://cn.bing.com/th?id=OHR.AnnasHummingbird_EN-CN9850207192_1920x1080.jpg&amp;w=720" alt="安娜蜂鸟" />
   <figcaption>安娜蜂鸟</figcaption>
 </figure>
-{%- endhighlight -%}
+```
 
 # 为术语自动生成 ID
 
@@ -56,11 +56,11 @@ kramdown 预定义了一些属性列表。这些预定义的属性列表只能�
 
 在术语表的前一行引用属性列表 `auto_ids`。像这样：
 
-{%- highlight markdown -%}
+```markdown
 {:auto_ids}
 术语名称
 : 术语定义
-{%- endhighlight -%}
+```
 
 > 术语 ID 的生成规则与标题 ID 的生成规则相同，除了第 6 条和第 7 条。
 
@@ -68,43 +68,43 @@ kramdown 预定义了一些属性列表。这些预定义的属性列表只能�
 
 你还可以为自动生成的术语 ID 添加前缀，像这样：
 
-{%- highlight markdown -%}
+```markdown
 {:auto_ids-前缀}
 术语名称
 : 术语定义
-{%- endhighlight -%}
+```
 
 > 前缀中只能包含使用字母、数字、连字符和下划线。如果前缀中含有任何不合法字符（比如中文字符或星号），编译器不会为术语生成任何 ID。
 
 ## 示例一
 
-{%- highlight markdown -%}
+```markdown
 {:auto_ids}
 Data visualization
 : Any attempt to make data more easily digestible by rendering it in a visual context.
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <dl>
   <dt id="data-visualization">Data visualization</dt>
   <dd>Any attempt to make data more easily digestible by rendering it in a visual context.</dd>
 </dl>
-{%- endhighlight -%}
+```
 
 ## 示例二
 
-{%- highlight markdown -%}
+```markdown
 {:auto_ids-tn-}
 Data visualization
 : Any attempt to make data more easily digestible by rendering it in a visual context.  
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <dl>
   <dt id="tn-data-visualization">Data visualization</dt>
   <dd>Any attempt to make data more easily digestible by rendering it in a visual context.</dd>
 </dl>
-{%- endhighlight -%}
+```
 
 > 本例中，前缀是 `tn-`。
 >
@@ -122,19 +122,19 @@ Data visualization
 
 插入的列表可以是数字编号列表，也可以是项目符号列表。语法如下：
 
-{%- highlight markdown -%}
+```markdown
 1. 脚注位置
 {:footnotes}
-{%- endhighlight -%}
+```
 
-{%- highlight markdown -%}
+```markdown
 - 脚注位置
 {:footnotes}
-{%- endhighlight -%}
+```
 
 ## 示例一
 
-{%- highlight markdown -%}
+```markdown
 小荷才露尖尖角[^1]，早有蜻蜓立上头[^2]。
 
 [^1]: 尖尖角：刚露出水面、尚未舒展开的荷叶尖儿。
@@ -144,9 +144,9 @@ Data visualization
 {:footnotes}
 
 接天莲叶无穷碧，映日荷花别样红。
-{%- endhighlight -%}
+```
 
-{%- highlight markdown -%}
+```markdown
 小荷才露尖尖角[^1]，早有蜻蜓立上头[^2]。
 
 [^1]: 尖尖角：刚露出水面、尚未舒展开的荷叶尖儿。
@@ -156,7 +156,7 @@ Data visualization
 {:footnotes}
 
 接天莲叶无穷碧，映日荷花别样红。
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -175,7 +175,7 @@ Data visualization
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>小荷才露尖尖角<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，早有蜻蜓立上头<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。</p>
 
 <div class="footnotes" role="doc-endnotes">
@@ -190,7 +190,7 @@ Data visualization
 </div>
 
 <p>接天莲叶无穷碧，映日荷花别样红。</p>
-{%- endhighlight -%}
+```
 
 
 

@@ -9,9 +9,9 @@ Markdown 使用一些特定的字符来标识文本的格式，比如井号、�
 
 比如，在 Markdown 中输入`***` 的写法是: 
 
-{%- highlight markdown -%}
+```markdown
 \***
-{%- endhighlight -%}
+```
 
 这里的反斜杠，叫做**转义符**。
 

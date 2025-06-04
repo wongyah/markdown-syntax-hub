@@ -58,7 +58,14 @@ nav:
 markdown_extensions:
   - footnotes
   - nl2br
+  - attr_list
   - pymdownx.superfences
   - pymdownx.highlight:
       linenums: true
       auto_title: true
+  - pymdownx.blocks.html
+  - pymdownx.snippets:
+      base_path: snippets
+
+extra_css:
+  - stylesheets/page.css

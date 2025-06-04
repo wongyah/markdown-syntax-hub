@@ -13,33 +13,33 @@ kramdown 不只是一种 Markdown 语法，更是一个功能强大的 **Markdow
 
 声明编译参数的语法如下：
 
-{%- highlight markdown -%}
+```markdown
 {::options 参数名称="参数值" /}
-{%- endhighlight -%}
+```
 
 > 1. 在参数名称中，使用下划线（`_`）作为单词之间的连接符。如，`auto_ids`。
 > 2. kramdown 提供的编译参数，请参见 [编译参数]({% link {{ page.linkToOptionList }} %})。
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 {::options auto_ids="true" /}
 
 # Regata Storica
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <h1 id="regata-storica">Regata Storica</h1>
-{%- endhighlight -%}
+```
 
 
-{%- highlight markdown -%}
+```markdown
 {::options auto_ids="false" /}
 
 # Regata Storica
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <h1>Regata Storica</h1>
-{%- endhighlight -%}
+```
 

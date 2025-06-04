@@ -26,14 +26,14 @@ Markdown 中的表格不仅可以设置文本对齐方式，还可以在单元�
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 | 项目     |  内容  |     请修改为 |
 |:---------|:-----:|-------------:|
 | 婚姻状况 |   累   |         已婚 |
 | 证件类型 | 长方形 |       身份证 |
 | 爱好     |   吃   | 唱歌跳舞之类 |
 | 特长     |   腿   | 绘画书法之类 |
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -71,7 +71,7 @@ Markdown 中的表格不仅可以设置文本对齐方式，还可以在单元�
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <table>
   <thead>
     <tr>
@@ -103,7 +103,7 @@ Markdown 中的表格不仅可以设置文本对齐方式，还可以在单元�
     </tr>
   </tbody>
 </table>
-{%- endhighlight -%}
+```
 
 # 在表格中使用其他元素
 

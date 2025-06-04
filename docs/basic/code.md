@@ -18,9 +18,9 @@ title: 行内代码
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 在 CSS 中，使用 `text-align` 属性设置文本的水平对齐方式。 
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -28,9 +28,9 @@ title: 行内代码
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>在 CSS 中，使用 <code>text-align</code> 属性设置文本的水平对齐方式。</p>
-{%- endhighlight -%}
+```
 
 # 含有反引号的代码
 
@@ -44,9 +44,9 @@ title: 行内代码
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 ``在 Markdown 中，`代码` 表示一段行内代码。``
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -56,11 +56,11 @@ title: 行内代码
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>
   <code>在 Markdown 中，`代码` 表示一段行内代码。</code>
 </p>
-{%- endhighlight -%}
+```
 
 # 含有与字符和尖括号的代码
 
@@ -70,12 +70,12 @@ title: 行内代码
 
 像这样：
 
-{%- highlight markdown -%}
+```markdown
 `<p>` 是 HTML 中的段落元素。
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <p>
   <code>&lt;p&gt;</code> 是 HTML 中的段落元素。
 </p>
-{%- endhighlight -%}
+```

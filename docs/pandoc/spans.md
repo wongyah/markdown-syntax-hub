@@ -10,17 +10,17 @@ title: 自定义行内文本
 
 自定义行内文本的语法如下：
 
-{%- highlight markdown -%}
+```markdown
 [行内文本]{属性}
-{%- endhighlight -%}
+```
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 熊猫树上熊猫果！[网友]{.role data-asker="me"}：可以在我家里也种一棵吗?
-{%- endhighlight -%}
+```
 
-{%- highlight javascript -%}
+```javascript
 <p>熊猫树上熊猫果！<span class="role" data-asker="me">网友</span>：可以在我家里也种一棵吗?</p>
-{%- endhighlight -%}
+```
 

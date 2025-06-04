@@ -10,12 +10,12 @@ title: 水平分割线
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 ---
 
 *****
 _ _ _
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -25,9 +25,9 @@ _ _ _
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <hr>
 <hr>
 <hr>
-{%- endhighlight -%}
+```
 

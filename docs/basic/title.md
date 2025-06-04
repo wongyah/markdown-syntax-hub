@@ -24,20 +24,25 @@
 ###### 六级标题
 ```
 
-<div class="highlight">
-  <span class="filename">输出格式</span>
-  <div style="padding: .7720588235em 1.1764705882em; border: .1rem solid #f5f5f5; border-top: none;">
-    <h1>一级标题</h1>
-    <h3>三级标题</h3>
-    <h6>六级标题</h6>
-  </div>
-</div>
+/// html | div.highlight
+/// html | span.filename
+输出格式
+///
+/// html | div.output
+    markdown: html
+<h1>一级标题</h1>
+<h3>三级标题</h3>
+<h6>六级标题</h6>
+///
+///
+
 
 ```html
 <h1>一级标题</h1>
 <h3>三级标题</h3>
 <h6>六级标题</h6>
 ```
+
 ## 下划线法
 
 ### 语法描述
@@ -58,12 +63,18 @@
 -------
 ```
 
-<div class="exmp">
-  <div class="exmp-container">
-    <h1>一级标题</h1>
-    <h2>二级标题</h2>
-  </div>
-</div>
+/// html | div.highlight
+/// html | span.filename
+输出格式
+///
+/// html | div.output
+一级标题
+=======
+
+二级标题
+-------
+///
+///
 
 ```html
 <h1>一级标题</h1>

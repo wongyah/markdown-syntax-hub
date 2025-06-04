@@ -8,17 +8,17 @@ title: 缩写
 
 为缩写添加定义的语法如下：
 
-{%- highlight markdown -%}
+```markdown
 *[缩写]: 缩写的全称
-{%- endhighlight -%}
+```
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 哇，这就是我的 YYDS!
 
 *[YYDS]: 永远滴神
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -26,6 +26,6 @@ title: 缩写
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>哇，这就是我的 <abbr title="永远滴神">YYDS</abbr>!</p>
-{%- endhighlight -%}
+```

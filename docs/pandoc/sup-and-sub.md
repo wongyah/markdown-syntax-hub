@@ -10,9 +10,9 @@ title: 上标和下标
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 水分子（H~2~O）的直径是 4×10^-10 米。
-{%- endhighlight -%}
+```
 
 <div class="exmp">
   <div class="exmp-container">
@@ -20,6 +20,6 @@ title: 上标和下标
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>水分子（H<sub>2</sub>O）的直径是 4×10<sup>-10</sup> 米。</p>
-{%- endhighlight -%}
+```

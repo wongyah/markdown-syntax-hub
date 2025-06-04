@@ -16,24 +16,24 @@ title: 内容分区
 
 ## 示例：简洁版
 
-{%- highlight markdown -%}
+```markdown
 ::: abstract
 求职面试是一个双向选择的过程：潜在雇主面试你，你也在面试对方。毕竟，你不是来者不拒，而是想要一份合适的工作。
 
 但调查显示，2/3 的员工表示自己入职的工作并不适合自己，1/2 的员工在入职半年以内就辞职了。
 :::
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <div class="abstract">
 <p>求职面试是一个双向选择的过程：潜在雇主面试你，你也在面试对方。毕竟，你不是来者不拒，而是想要一份合适的工作。</p>
 <p>但调查显示，2/3 的员工表示自己入职的工作并不适合自己，1/2 的员工在入职半年以内就辞职了。</p>
 </div>
-{%- endhighlight -%}
+```
 
 ## 示例：自嵌套
 
-{%- highlight markdown -%}
+```markdown
 ::::: notes :::::
 
 ::: point
@@ -49,9 +49,9 @@ title: 内容分区
 :::
 
 :::::::::::::::::
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <div class="notes">
   <section id="反复调整时间" class="point">
     <h1>反复调整时间</h1>
@@ -62,4 +62,4 @@ title: 内容分区
     <p>如果你在面试中遇到的人不懂得尊重他人，这不仅预示着该组织可能高度封闭，也说明其工作氛围容易让人失去安全感。</p>
   </section>
 </div>
-{%- endhighlight -%}
+```

@@ -16,24 +16,24 @@ title: 为块元素添加属性
 
 *[IAL]: Inline Attribute List
 
-{%- highlight markdown -%}
+```markdown
 {: 属性名称="属性值"}
-{%- endhighlight -%}
+```
 
 属性定义列表里可以包含多个属性，属性与属性之间使用空格分隔。
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 > 临渊羡鱼，不如退而结网。
 {: title="古语有云"}
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <blockquote title="古语有云">
   <p>临渊羡鱼，不如退而结网。</p>
 </blockquote>
-{%- endhighlight -%}
+```
 
 # 为块元素添加类属性
 
@@ -45,22 +45,22 @@ title: 为块元素添加属性
 
 为块元素添加属性类的简式写法如下：
 
-{%- highlight markdown -%}
+```markdown
 {: .类名}
-{%- endhighlight -%}
+```
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 > 前事不忘，后事之师。
 {: .gyyy .战国策}
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <blockquote class="gyyy 战国策">
   <p>前事不忘，后事之师。</p>
 </blockquote>
-{%- endhighlight -%}
+```
 
 # 为块元素添加 ID 属性
 
@@ -72,28 +72,28 @@ ID（Class）是 CSS 中最常用的属性之一。
 
 为块元素添加 ID 属性的简式写法如下：
 
-{%- highlight markdown -%}
+```markdown
 {: #ID}
-{%- endhighlight -%}
+```
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 - 梅
 - 兰
 - 竹
 - 菊
 {: #F4}
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <ul id="F4">
   <li>梅</li>
   <li>兰</li>
   <li>竹</li>
   <li>菊</li>
 </ul>
-{%- endhighlight -%}
+```
 
 # 变量引用式
 
@@ -105,28 +105,28 @@ ID（Class）是 CSS 中最常用的属性之一。
 
 定义属性列表的语法如下：
 
-{%- highlight markdown -%}
+```markdown
 {:属性列表名称: .类名 #ID 属性名称="属性值"}
-{%- endhighlight -%}
+```
 
 引用已定义的属性列表的语法如下：
 
-{%- highlight markdown -%}
+```markdown
 {: 属性列表名称}
-{%- endhighlight -%}
+```
 
 属性列表定义可以位于文中的任何位置。然后在块元素的下一行，使用属性列表名称引用属性列表即可。
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 {:winter: .winter title="梅花"}
 
 墙角数枝梅，凌寒独自开。遥知不是雪，为有暗香来。
 {: winter}
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <p class="winter" title="梅花">墙角数枝梅，凌寒独自开。遥知不是雪，为有暗香来。</p>
-{%- endhighlight -%}
+```
 

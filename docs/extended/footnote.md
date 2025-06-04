@@ -12,9 +12,9 @@ Markdown 中生成的脚注和我们通常看到的脚注没什么不同。正�
 
 在文中任意位置添加脚注内容：
 
-{%- highlight markdown -%}
+```markdown
 [^1]: 这是脚注内容。
-{%- endhighlight -%}
+```
 
 其中，
 
@@ -26,12 +26,12 @@ Markdown 中生成的脚注和我们通常看到的脚注没什么不同。正�
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 人生代代无穷已[^1]，江月年年望相似[^wang]。
 
 [^1]: 穷已：穷尽。
 [^wang]: 望：只。
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
     <div class='exmp-container'>
@@ -49,7 +49,7 @@ Markdown 中生成的脚注和我们通常看到的脚注没什么不同。正�
     </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>人生代代无穷已<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，江月年年望相似<sup id="fnref:wang" role="doc-noteref"><a href="#fn:wang" class="footnote" rel="footnote">2</a></sup>。</p>
 
 <div class="footnotes" role="doc-endnotes">
@@ -62,4 +62,4 @@ Markdown 中生成的脚注和我们通常看到的脚注没什么不同。正�
     </li>
   </ol>
 </div>
-{%- endhighlight -%}
+```

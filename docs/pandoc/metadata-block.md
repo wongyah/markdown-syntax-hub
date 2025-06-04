@@ -18,56 +18,56 @@ title: 元数据块
 
 百分号表示法的写法如下：
 
-{%- highlight Markdown -%}
+```Markdown
 % 标题
 % 作者
 % 日期
-{%- endhighlight -%}
+```
 
 使用百分号表示法时，标题、作者和日期的先后顺序是固定的，不能互换。但是，你仍然可以只输入其中的一项或两项。比如，只输入标题和作者的写法如下：
 
-{%- highlight markdown -%}
+```markdown
 % 标题
 % 作者
-{%- endhighlight -%}
+```
 
 如果只想输入后面的项，必须使用以百分号开头的空行来替代前面的项。比如，只输入作者时的写法如下：
 
-{%- highlight markdown -%}
+```markdown
 %
 % 作者
-{%- endhighlight -%}
+```
 
 > 如果省略了以百分号开头的空行，“作者”会被 Pandoc 作为元数据块中的标题文本进行编译。
 
 元数据块中的标题可以跨行，但后续行必须以空格开头。
 
-{%- highlight markdown -%}
+```markdown
 % 标题的首行文本
   标题的后续行文本
-{%- endhighlight -%}
+```
 
 在元数据块中可以输入多名作者，使用以下三种写法之一即可：
 
-{%- highlight markdown -%}
+```markdown
 % 作者甲
   作者乙
-{%- endhighlight -%}
+```
 
-{%- highlight markdown -%}
+```markdown
 % 作者甲; 作者乙
-{%- endhighlight -%}
+```
 
-{%- highlight markdown -%}
+```markdown
 % 作者甲;
   作者乙
-{%- endhighlight -%}
+```
 
 元数据块中的日期不允许跨行。
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 % 致橡树
 % 舒婷
 % 1977.03.27
@@ -76,9 +76,9 @@ title: 元数据块
 | 绝不像攀援的凌霄花
 | 借你的高枝炫耀自己；
 | ……
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
@@ -99,7 +99,7 @@ title: 元数据块
     ……</div>
   </body>
 </html>
-{%- endhighlight -%}
+```
 
 # YAML 表示法
 
@@ -109,25 +109,25 @@ title: 元数据块
 
 YAML 元数据块有以下两种写法：
 
-{%- highlight markdown -%}
+```markdown
 ---
 title: 标题
 author: 作者
 date: 日期
 ---
-{%- endhighlight -%}
+```
 
-{%- highlight markdown -%}
+```markdown
 ---
 title: 标题
 author: 作者
 date: 日期
 ...
-{%- endhighlight -%}
+```
 
 如果 YAML 元数据块没有位于 Markdown 文件的开头，使用空行分隔元数据块与正文。
 
-{%- highlight markdown -%}
+```markdown
 
 正文
 
@@ -138,11 +138,11 @@ date: 日期
 ---
 
 正文
-{%- endhighlight -%}
+```
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 ---
 title: 热爱生命
 author: 汪国真
@@ -154,9 +154,9 @@ date: 1988
 | 既然选择了远方，
 | 便只顾风雨兼程。
 | ……
-{%- endhighlight -%}
+```
 
-{%- highlight markdown -%}
+```markdown
 | 我不去想，
 | 是否能够成功，
 | 既然选择了远方，
@@ -168,9 +168,9 @@ title: 热爱生命
 author: 汪国真
 date: 1988
 ---
-{%- endhighlight -%}
+```
 
-{%- highlight html -%}
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
@@ -192,7 +192,7 @@ date: 1988
     ……</div>
   </body>
 </html>
-{%- endhighlight -%}
+```
 
 
 

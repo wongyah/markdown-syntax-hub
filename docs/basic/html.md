@@ -14,9 +14,9 @@ HTML 元素中，不能使用 Markdown 语法。
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 <abbr title="British Broadcasting Corporation">BBC</abbr> 总部位于伦敦。
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -24,6 +24,6 @@ HTML 元素中，不能使用 Markdown 语法。
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p><abbr title="British Broadcasting Corporation">BBC</abbr> 总部位于伦敦。</p>
-{%- endhighlight -%}
+```

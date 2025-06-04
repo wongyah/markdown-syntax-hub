@@ -14,9 +14,9 @@ title: 链接
 
 插入链接的方法如下：
 
-{%- highlight markdown -%}
+```markdown
 [链接文本](目标地址 "标题")
-{%- endhighlight -%}
+```
 
 链接的目标地址可以是网址（比如 `https://www.docsimpo.work/`），也可以是相对地址（比如 `/联系我们/`）。
 
@@ -24,11 +24,11 @@ title: 链接
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 [百度](https://www.baidu.com/)是全球最大的中文搜索引擎。
 
 [必应](https://cn.bing.com/ "每一天都从欣赏美景开始")的“每天一图”好漂亮！
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -37,10 +37,10 @@ title: 链接
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p><a href="https://www.baidu.com/">百度</a>是全球最大的中文搜索引擎。</p>
 <p><a href="https://cn.bing.com/" title="每一天都从欣赏美景开始">必应</a>的“每天一图”好漂亮！</p>
-{%- endhighlight -%}
+```
 
 # 脚注式
 
@@ -56,11 +56,11 @@ title: 链接
 
 脚注式链接的语法如下：
 
-{%- highlight markdown -%}
+```markdown
 [链接文本][链接名称]
 
 [链接名称]: 目标地址 "标题"
-{%- endhighlight -%}
+```
 
 其中，
 
@@ -68,18 +68,18 @@ title: 链接
 - 链接的目标地址可以使用尖括号（`<>`）括起来，但这并不是必须的。
 - 链接标题需要使用单引号、双引号或圆括号括起来。标题与目标地址之间使用空格分隔。
 
-    {%- highlight markdown -%}
+    ```markdown
     以下几种写法是等效的：
 
     [bing]: https://cn.bing.com/ '每一天都从欣赏美景开始'
     [bing]: https://cn.bing.com/ "每一天都从欣赏美景开始"
     [bing]: https://cn.bing.com/ (每一天都从欣赏美景开始)
     [bing]: <https://cn.bing.com/> (每一天都从欣赏美景开始)
-    {%- endhighlight -%}
+    ```
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 2021 年全球五大搜索引擎：
 
 1. [谷歌][1]
@@ -93,7 +93,7 @@ title: 链接
 [3]: https://www.yahoo.com/
 [4]: https://www.baidu.com/ "百度一下，你就知道"
 [5]: https://yandex.com/ "俄罗斯最大的搜索引擎"
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -118,7 +118,7 @@ title: 链接
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>2021 年全球五大搜索引擎：</p>
 <ol>
   <li>
@@ -137,7 +137,7 @@ title: 链接
     <a href="https://yandex.com/" title="俄罗斯最大的搜索引擎">Yandex</a>
   </li>
 </ol>
-{%- endhighlight -%}
+```
 
 # 脚注式的简写形式
 
@@ -149,11 +149,11 @@ title: 链接
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 [百度][]一下，你就知道！
 
 [百度]: https://www.baidu.com/ "百度一下，你就知道"
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -163,11 +163,11 @@ title: 链接
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>
   <a href="https://www.baidu.com/" title="百度一下，你就知道">百度</a>一下，你就知道！
 </p>
-{%- endhighlight -%}
+```
 
 # 快速创建网址和邮箱链接
 
@@ -179,10 +179,10 @@ title: 链接
 
 ## 示例
 
-{%- highlight markdown -%}
+```markdown
 <https://cn.bing.com/>  
 <yedda.wang@docsimpo.work>
-{%- endhighlight -%}
+```
 
 <div class='exmp'>
   <div class='exmp-container'>
@@ -193,11 +193,11 @@ title: 链接
   </div>
 </div>
 
-{%- highlight html -%}
+```html
 <p>
   <a href="https://cn.bing.com/">https://cn.bing.com/</a><br>
   <a href="mailto:yedda.wang@docsimpo.work">yedda.wang@docsimpo.work</a>
 </p>
-{%- endhighlight -%}
+```
 
 
