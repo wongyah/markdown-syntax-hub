@@ -16,7 +16,7 @@ Markdown 中的表格不仅可以设置文本对齐方式，还可以在单元�
 - `:---:` 表示居中对齐。
 - `---:` 表示右对齐。
 
-!!! 提示
+!!! tip "提示"
     在 <abbr title="Visual Studio Code">VS Code</abbr> 里，使用插件 Markdown Table Maker 可以快速生成表格。
 
 ### 示例

@@ -24,7 +24,7 @@
 <h3 id="唐诗">唐诗三百首</h3>
 ```
 
-!!! 提示
+!!! tip "提示"
     不同的编辑器或 Markdown 转换器可能会为标题生成不同的 ID。比如 <abbr title="Visual Studio Code">VS Code</abbr> 插件 Markdown All in One 为上例中标题生成的 ID 是“唐诗三百首-唐诗”。
 
 ## 添加指向标题的链接 {#link_to_heading}
