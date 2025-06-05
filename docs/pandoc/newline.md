@@ -14,9 +14,9 @@
 ```
 
 --8<-- "output.md:start"
-    markdown: html
-    <p>落霞与孤鹜齐飞，<br> 秋水共长天一色。</p>
-  --8<-- "output.md:end"
+落霞与孤鹜齐飞，
+秋水共长天一色。
+--8<-- "output.md:end"
 
 ```html
 <p>落霞与孤鹜齐飞，<br> 秋水共长天一色。</p>
