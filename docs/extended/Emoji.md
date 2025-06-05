@@ -8,7 +8,7 @@
 
 在这些网站中找到你喜欢的表情，复制粘贴到你的文章里即可。不仅 Markdown 编辑器可以正常显示这些表情，转换后的 HTML 或 PDF 文件通常也可以正常显示它们。
 
-!!! 注意
+!!! tip
     如果你在静态网站生成软件（比如 Jekyll 和 Hugo）中使用表情，一定要将 HTML 文件的编码格式指定为 UTF-8。
 
 [Emojipedia]: https://emojipedia.org/ "Emojipedia网站"
