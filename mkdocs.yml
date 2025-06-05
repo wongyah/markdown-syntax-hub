@@ -29,8 +29,8 @@ nav:
     - extended/fenced-code-block.md
     - extended/footnote.md
     - extended/definition-list.md
-    - extended/task-list..md
-    - extended/heading-id.md
+    - extended/task-list.md
+    - extended/heading-with-id.md
     - extended/strikethrough.md
     - extended/automatic-url-link.md
     - extended/Emoji.md
@@ -56,10 +56,15 @@ nav:
 
 
 markdown_extensions:
-  - footnotes
   - nl2br
+  - footnotes
+  - def_list
   - attr_list
   - admonition
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
