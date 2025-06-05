@@ -8,22 +8,21 @@
 
 *[IAL]: Inline Attribute List
 
-## 示例（常规直添式）
+## 示例：常规直添式
 
 ```markdown
 一代人终将老去，**但**{: style="color: #bb0000;"}总有人正年轻。
 ```
 
 --8<-- "output.md:start"
-    markdown: html
-    <p>一代人终将老去，<strong style="color: #bb0000;">但</strong>总有人正年轻。</p>
-  --8<-- "output.md:end"
+一代人终将老去，**但**{: style="color: #bb0000;"}总有人正年轻。
+--8<-- "output.md:end"
 
 ```html
 <p>一代人终将老去，<strong style="color: #bb0000;">但</strong>总有人正年轻。</p>
 ```
 
-## 示例（变量引用式）
+## 示例：变量引用式
 
 ```markdown
 {:blue: style="color: #0000ff;"}
@@ -33,8 +32,8 @@
 
 --8<-- "output.md:start"
     markdown: html
-    <p>青出于<strong style="color: #0000ff;">蓝</strong>而胜于<strong style="color: #0000ff;">蓝</strong>。</p>
-  --8<-- "output.md:end"
+<p>青出于<strong style="color: #0000ff;">蓝</strong>而胜于<strong style="color: #0000ff;">蓝</strong>。</p>
+--8<-- "output.md:end"
 
 ```html
 <p>青出于<strong style="color: #0000ff;">蓝</strong>而胜于<strong style="color: #0000ff;">蓝</strong>。</p>

@@ -26,6 +26,7 @@ theme:
       quote: octicons/quote-16
 
 nav:
+  - index.md
   - 基本语法:
     - basic/index.md
     - basic/title.md
@@ -75,6 +76,7 @@ nav:
 
 markdown_extensions:
   - nl2br
+  - abbr
   - footnotes
   - def_list
   - attr_list

@@ -1,14 +1,8 @@
 # 编译参数
 
-kramdown 提供以下编译参数：
+## 设置目录中的标题级别
 
-1. toc
-{: toc }
-{::options toc_levels="1" /}
-
-# 设置目录中的标题级别
-
-## `toc_levels`
+### toc_levels
 
 功能：设置目录中的标题级别。
 
@@ -16,9 +10,9 @@ kramdown 提供以下编译参数：
 
 默认值：`1..6`
 
-# 设置标题 ID 的生成方式
+## 设置标题 ID 的生成方式
 
-## `auto_ids`
+### auto_ids
 
 功能：是否为标题自动生成 ID。
 
@@ -26,7 +20,7 @@ kramdown 提供以下编译参数：
 
 默认值：`true`
 
-## `auto_id_prefix`
+### auto_id_prefix
 
 功能：为自动生成的标题 ID 添加一个前缀。
 
@@ -34,9 +28,9 @@ kramdown 提供以下编译参数：
 
 默认值：`''`（空字符串）
 
-# 设置脚注的显示方式
+## 设置脚注的显示方式
 
-## `footnote_nr`
+### footnote_nr
 
 功能：设置脚注的起始编号。
 
@@ -44,7 +38,7 @@ kramdown 提供以下编译参数：
 
 默认值：`1`
 
-## `footnote_prefix`
+### footnote_prefix
 
 功能：为自动生成的脚注 ID 添加一个前缀。
 
@@ -52,7 +46,7 @@ kramdown 提供以下编译参数：
 
 默认值：`''`（空字符串）
 
-## `footnote_backlink`
+### footnote_backlink
 
 设置每条脚注末尾的链接文本。
 
@@ -60,7 +54,7 @@ kramdown 提供以下编译参数：
 
 默认值：'&#8617'
 
-## `footnote_backlink_inline`
+### footnote_backlink_inline
 
 功能：是否将每条脚注末尾的链接作为行内元素。
 
@@ -68,9 +62,9 @@ kramdown 提供以下编译参数：
 
 默认值：`false`
 
-# 设置语法高亮工具
+## 设置语法高亮工具
 
-## `syntax_highlighter`
+### syntax_highlighter
 
 功能：设置语法高亮的工具。
 
@@ -81,7 +75,7 @@ kramdown 提供以下编译参数：
 - `rouge`（默认值）
 - `coderay`
 
-## `syntax_highlighter_opts`
+### syntax_highlighter_opts
 
 功能：设置语法高亮工具的配置参数。每个语法高亮工具有不同的配置参数。根据你在 `syntax_highlighter` 中设置的语法高亮工具，为配置参数选择合适的参数值。
 
@@ -89,9 +83,9 @@ kramdown 提供以下编译参数：
 
 默认值：{}
 
-# 设置数学公式转换器
+## 设置数学公式转换器
 
-## `math_engine`
+### math_engine
 
 功能：设置数学公式的转换器。
 
@@ -108,7 +102,7 @@ kramdown 提供以下编译参数：
 
 默认值：`mathjax`
 
-## `math_engine_opts`
+### math_engine_opts
 
 功能：设置数学公式转换器的配置参数。每个数学公式转换器有不同的配置参数。根据你在 `math_engine` 中设置的数学公式转换器，为配置参数选择合适的参数值。
 
@@ -116,9 +110,9 @@ kramdown 提供以下编译参数：
 
 默认值：{}
 
-# 设置 HTML 模板
+## 设置 HTML 模板
 
-## `template`
+### template
 
 功能：设置 ERB 模板，将转换后的 HTML 内容输出为一个完整的文件。
 
@@ -126,9 +120,9 @@ kramdown 提供以下编译参数：
 
 默认值：`''`（空字符串）
 
-# 设置字符实体的输出方式
+## 设置字符实体的输出方式
 
-## `entity_output`
+### entity_output
 
 功能：设置字符实体的输出形式。
 
@@ -138,9 +132,9 @@ kramdown 提供以下编译参数：
 - `numeric`
 - `symbolic`
 
-# 设置 CJK 字符的处理方式
+## 设置 CJK 字符的处理方式
 
-## `remove_line_breaks_for_cjk`
+### remove_line_breaks_for_cjk
 
 功能：是否删除 CJK 字符之间的换行符。
 

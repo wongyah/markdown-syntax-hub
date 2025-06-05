@@ -19,9 +19,10 @@
 ```
 
 --8<-- "output.md:start"
-    markdown: html
-    <p>哇，这就是我的 <abbr title="永远滴神">YYDS</abbr>!</p>
-  --8<-- "output.md:end"
+哇，这就是我的 YYDS!
+
+*[YYDS]: 永远滴神
+--8<-- "output.md:end"
 
 ```html
 <p>哇，这就是我的 <abbr title="永远滴神">YYDS</abbr>!</p>
