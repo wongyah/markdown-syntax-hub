@@ -4,8 +4,9 @@ theme:
   language: zh
   features:
     - navigation.instant
-    - navigation.tracking
     - navigation.indexes
+    - navigation.path
+    - toc.follow
   custom_dir: overrides
 
 nav:
