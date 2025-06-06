@@ -1,16 +1,41 @@
-site_name: Markdown Syntax Hub
+site_name: 技术传播百态说
 theme:
   name: material
   language: zh
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: custom
+      accent: custom
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: custom
+      accent: custom
   features:
     - navigation.instant
     - navigation.indexes
     - navigation.path
+    - navigation.footer
     - toc.follow
   custom_dir: overrides
 
+extra_css:
+  - stylesheets/palette.css
+  - stylesheets/page.css
+  - stylesheets/nav.css
+
+extra:
+  homepage: https://www.docsimpo.work/
+  doc_title: "Markdown 语法中心"
+
 nav:
-  - index.md
   - 基本语法:
     - basic/index.md
     - basic/headings.md
@@ -78,5 +103,3 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: snippets
 
-extra_css:
-  - stylesheets/page.css
