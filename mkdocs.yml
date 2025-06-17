@@ -2,6 +2,8 @@ site_name: 技术传播百态说
 theme:
   name: material
   language: zh
+  logo: assets/logo/logo_v3.svg
+  favicon: assets/logo/favicon.ico
   palette:
     # Dark Mode
     - scheme: slate
@@ -29,10 +31,11 @@ extra_css:
   - stylesheets/palette.css
   - stylesheets/page.css
   - stylesheets/nav.css
+  - stylesheets/header.css
   - stylesheets/footer.css
 
 extra:
-  homepage: https://www.docsimpo.work/
+  homepage: https://www.tcblabber.cn/
   doc_title: "Markdown 语法中心"
   social:
     - icon: fontawesome/brands/github
