@@ -1,3 +1,15 @@
 {
-  "trailingSlash": true
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "markdown-syntax-hub.tcblabber.cn"
+        }
+      ],
+      "destination": "/markdown-syntax-hub/:path*"
+    }
+  ]
 }
