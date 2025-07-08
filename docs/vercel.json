@@ -1,25 +1,9 @@
 {
   "trailingSlash": true,
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "markdown-syntax-hub.tcblabber.cn"
-        }
-      ],
-      "destination": "/markdown-syntax-hub/"
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "markdown-syntax-hub.tcblabber.cn"
-        }
-      ],
-      "destination": "/markdown-syntax-hub/:path*"
+      "source": "/(.*)",
+      "destination": "https://www.tcblabber.cn/markdown-syntax-hub"
     }
-  ]
+  ]  
 }
