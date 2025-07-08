@@ -1,9 +1,3 @@
 {
-  "trailingSlash": true,
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://www.tcblabber.cn/markdown-syntax-hub"
-    }
-  ]  
+  "trailingSlash": true
 }
