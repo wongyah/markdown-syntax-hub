@@ -1,8 +1,20 @@
 {
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "markdown-syntax-hub.tcblabber.cn"
+        }
+      ],
+      "destination": "/markdown-syntax-hub/:path*"
+    }
+  ],
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://tcblabber.cn/markdown-syntax-hub"
+      "destination": "https://www.tcblabber.cn/markdown-syntax-hub"
     }
   ]  
 }
